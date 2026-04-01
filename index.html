@@ -3,100 +3,131 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Dawson Kennedy – Game Developer Portfolio</title>
-  <style>
-  body {
-    margin: 0;
-    padding: 2rem;
-    font-family: 'Segoe UI', sans-serif;
-    background-color: #121212;
-    color: #f0f0f0;
-  }
-
-  h1, h2, h3 {
-    color: #bb86fc;
-  }
-
-  a {
-    color: #bb86fc;
-    text-decoration: none;
-  }
-
-  a:hover {
-    color: #d6a4ff;
-    text-decoration: underline;
-  }
-
-  .section {
-    margin-bottom: 4rem;
-  }
-
-  .project {
-    background-color: #1e1e1e;
-    padding: 1rem 1.5rem;
-    border-left: 4px solid #bb86fc;
-    margin-bottom: 2rem;
-    border-radius: 8px;
-  }
-
-  .project p {
-    margin: 0.5rem 0;
-  }
-
-  .footer {
-    text-align: center;
-    font-size: 0.9rem;
-    color: #888;
-    margin-top: 4rem;
-  }
-</style>
+  <title>Dawson Kennedy – Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <h1>Dawson Kennedy</h1>
-  <p>Game Designer & Developer | Level Design, Worldbuilding, and Unreal Projects</p>
+  <nav class="nav">
+    <a href="#about">About</a>
+    <a href="#featured">Featured Projects</a>
+    <a href="#software">Software</a>
+    <a href="#games">Game Development</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-  <!-- About Section -->
-  <div class="section" id="about">
-    <h2>About Me</h2>
-    <p>I’m a game designer and developer who enjoys crafting immersive worlds, placing every prop with purpose, and telling stories through level design. While I’m comfortable writing code, I find my passion lies in building and refining engaging environments that draw players in.</p>
-  </div>
+  <header class="hero">
+    <h1>Dawson Kennedy</h1>
+    <p class="hero-subtitle">Software Developer | Game Developer | Designer</p>
+    <p class="hero-text">
+      I’m a developer with experience in software engineering and game development, with a strong interest in building practical applications, interactive systems, and immersive game experiences.
+    </p>
+  </header>
 
-  <!-- Projects Section -->
-  <div class="section" id="projects">
-    <h2>Projects</h2>
+  <main>
+    <section class="section" id="about">
+      <h2>About Me</h2>
+      <p>
+        My background includes software projects involving databases, application development, and full-stack work, as well as game development projects built in Unreal Engine and Godot. I enjoy solving technical problems, designing systems, and creating polished experiences that feel intentional and well built.
+      </p>
+      <p>
+        I’m currently focused on growing my portfolio with projects that show both technical skill and creativity, from software applications to playable game prototypes.
+      </p>
+    </section>
 
-    <div class="project">
-      <h3>🧟 Last Stand</h3>
-      <p><strong>Engine:</strong> Unreal Engine</p>
-      <p><strong>Role:</strong> Level Designer (Team Project)</p>
-      <p>A post-apocalyptic western zombie survival game inspired by Call of Duty Zombies. Players fight off waves of undead in a stylized world. While the project was overscoped, the alpha showcases a strong foundation and compelling map layout.</p>
-      <p><a href="https://github.com/Justin-Murray555/Gam305RedTeam" target="_blank">GitHub Repository</a></p>
-    </div>
+    <section class="section" id="featured">
+      <h2>Featured Projects</h2>
 
-    <div class="project">
-      <h3>🕶️ (Mostly) Unseen</h3>
-      <p><strong>Engine:</strong> Unreal Engine</p>
-      <p><strong>Role:</strong> Solo Developer</p>
-      <p>A lighthearted third-person stealth game where players sneak past guards, collect items, and avoid detection. Minimal combat, maximum sneaky fun. Built from scratch with a strong focus on player flow and environment readability.</p>
-      <p><a href="https://github.com/PDKennedy00/GAM303" target="_blank">GitHub Repository</a></p>
-    </div>
+      <div class="project">
+        <h3>📦 CS360 Inventory Management App</h3>
+        <div class="tags">
+          <span class="tag">Java</span>
+          <span class="tag">Database</span>
+          <span class="tag">Mobile App</span>
+        </div>
+        <p><strong>Role:</strong> Solo Developer</p>
+        <p>
+          An inventory management application focused on organizing item data, handling CRUD functionality, and demonstrating practical software development skills with a database-backed application.
+        </p>
+        <p><a href="YOUR_CS360_LINK_HERE" target="_blank">View Project</a></p>
+      </div>
 
-    <!-- Add more project blocks here as needed -->
-  </div>
+      <div class="project">
+        <h3>🕶️ (Mostly) Unseen</h3>
+        <div class="tags">
+          <span class="tag">Unreal Engine 5</span>
+          <span class="tag">Blueprints</span>
+          <span class="tag">Stealth Game</span>
+        </div>
+        <p><strong>Role:</strong> Solo Developer</p>
+        <p>
+          A lighthearted third-person stealth game where players sneak past guards, collect items, and avoid detection. Built with a focus on player flow, stealth readability, and environmental design.
+        </p>
+        <p><a href="https://github.com/PDKennedy00/GAM303" target="_blank">GitHub Repository</a></p>
+      </div>
 
-  <!-- Contact Section -->
-  <div class="section" id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:pdkennedy87@gmail.com">pdkennedy87@gmail.com</a></p>
-    <p>GitHub: <a href="https://github.com/PDKennedy00" target="_blank">github.com/PDKennedy00</a></p>
-    <!-- Optional: Add LinkedIn or Itch.io here -->
-  </div>
+    </section>
 
-  <div class="footer">
-    &copy; 2025 Dawson Kennedy. Built with love and a lot of late nights.
-  </div>
+    <section class="section" id="software">
+      <h2>Software Development</h2>
+
+      <div class="project">
+        <h3>📦 CS360 Inventory Management App</h3>
+        <p><strong>Focus:</strong> Application development, data handling, and database integration</p>
+        <p>
+          Built as a practical inventory solution with a focus on clean organization, managing records, and demonstrating core software engineering concepts.
+        </p>
+        <p><a href="YOUR_CS360_LINK_HERE" target="_blank">View Project</a></p>
+      </div>
+
+      <div class="project">
+        <h3>🌐 Travlr Full-Stack Project</h3>
+        <p><strong>Focus:</strong> Web development and full-stack architecture</p>
+        <p>
+          A coursework web application demonstrating front-end and back-end development concepts, including connecting multiple pages and managing application structure.
+        </p>
+        <p><a href="YOUR_TRAVLR_LINK_HERE" target="_blank">View Project</a></p>
+      </div>
+      
+    </section>
+
+    <section class="section" id="games">
+      <h2>Game Development</h2>
+
+      <div class="project">
+        <h3>🧟 Last Stand</h3>
+        <p><strong>Engine:</strong> Unreal Engine</p>
+        <p><strong>Role:</strong> Level Designer (Team Project)</p>
+        <p>
+          A post-apocalyptic western zombie survival game inspired by wave-based survival shooters. While the project was ambitious in scope, the playable work demonstrates strong environment planning and map design.
+        </p>
+        <p><a href="https://github.com/Justin-Murray555/Gam305RedTeam" target="_blank">GitHub Repository</a></p>
+      </div>
+
+      <div class="project">
+        <h3>🕶️ (Mostly) Unseen</h3>
+        <p><strong>Engine:</strong> Unreal Engine</p>
+        <p><strong>Role:</strong> Solo Developer</p>
+        <p>
+          A stealth-focused prototype centered on sneaking, item collection, and avoiding guard patrols. Designed to emphasize clear spaces, readable routes, and approachable stealth gameplay.
+        </p>
+        <p><a href="https://github.com/PDKennedy00/GAM303" target="_blank">GitHub Repository</a></p>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:pdkennedy87@gmail.com">pdkennedy87@gmail.com</a></p>
+      <p>GitHub: <a href="https://github.com/PDKennedy00" target="_blank">github.com/PDKennedy00</a></p>
+      <p>Resume: <a href="YOUR_RESUME_LINK_HERE" target="_blank">View Resume</a></p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 Dawson Kennedy. Built with love and a lot of late nights.</p>
+  </footer>
 
 </body>
+</html>
 </html>
 
